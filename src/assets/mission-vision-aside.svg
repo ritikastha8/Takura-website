@@ -1,0 +1,59 @@
+<svg viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mvAsideTitle">
+  <title id="mvAsideTitle">A compass pointing forward, representing Takura's mission and vision</title>
+  <defs>
+    <linearGradient id="mva-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDECEB"/>
+      <stop offset="100%" stop-color="#FBD8D6"/>
+    </linearGradient>
+    <linearGradient id="mva-needle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ED1C24"/>
+      <stop offset="100%" stop-color="#B8141A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="360" height="460" rx="28" fill="url(#mva-bg)"/>
+
+  <!-- faint concentric rings -->
+  <circle cx="180" cy="200" r="150" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  <circle cx="180" cy="200" r="118" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <!-- compass body -->
+  <circle cx="180" cy="200" r="98" fill="#ffffff" stroke="#232323" stroke-width="3"/>
+  <circle cx="180" cy="200" r="98" fill="none" stroke="#ED1C24" stroke-width="5"/>
+  <circle cx="180" cy="200" r="74" fill="none" stroke="#232323" stroke-width="1.5" opacity="0.25"/>
+
+  <g stroke="#232323" stroke-width="2" opacity="0.55">
+    <line x1="180" y1="102" x2="180" y2="118"/>
+    <line x1="180" y1="282" x2="180" y2="298"/>
+    <line x1="82" y1="200" x2="98" y2="200"/>
+    <line x1="262" y1="200" x2="278" y2="200"/>
+  </g>
+  <text x="180" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#232323" opacity="0.6">N</text>
+
+  <!-- needle -->
+  <g transform="translate(180,200) rotate(-18)">
+    <path d="M0 -62 L15 14 L0 2 L-15 14 Z" fill="url(#mva-needle)"/>
+    <path d="M0 62 L15 -14 L0 -2 L-15 -14 Z" fill="#232323"/>
+    <circle r="9" fill="#232323"/>
+    <circle r="4" fill="#ffffff"/>
+  </g>
+
+  <!-- path leading toward the compass -->
+  <path d="M40 400 Q140 350 180 300" fill="none" stroke="#232323" stroke-width="2.5" stroke-dasharray="1 10" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- small figures walking the path -->
+  <g fill="#232323">
+    <circle cx="46" cy="384" r="9"/>
+    <path d="M35 402 Q46 386 57 402 L53 430 L39 430 Z"/>
+  </g>
+  <g fill="#ED1C24">
+    <circle cx="70" cy="368" r="8" opacity="0.9"/>
+    <path d="M60 384 Q70 370 80 384 L77 408 L63 408 Z" opacity="0.9"/>
+  </g>
+
+  <!-- flag marker -->
+  <g stroke="#232323" stroke-width="2.5" opacity="0.55">
+    <line x1="300" y1="330" x2="300" y2="380"/>
+  </g>
+  <path d="M300 330 L326 340 L300 350 Z" fill="#ED1C24"/>
+</svg>
