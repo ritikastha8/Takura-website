@@ -35,7 +35,7 @@ export function Certificates() {
         <Reveal>
           <SectionHeading
             title="Our"
-            highlight="Certificates"
+            highlight="Legal Documents"
             center
             subtitle="Government licences and registrations that keep Takura Overseas accountable, audited and fully compliant."
           />
