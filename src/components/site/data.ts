@@ -76,11 +76,11 @@ export const NAV_LINKS: NavItem[] = [
 export const WEB3FORMS_ACCESS_KEY = "REPLACE_WITH_WEB3FORMS_ACCESS_KEY";
 
 export const CONTACT = {
-  address: "Manbhwan-14, Lalitpur, Nepal",
+  address: "Manbhawan-14, Lalitpur, Nepal",
   phones: ["+977 1 4529674", "+977 1 4529675"],
   email: "info@takuraoverseas.com",
   website: "www.takuraoverseas.com",
-  mapHref: "https://www.google.com/maps/search/?api=1&query=Manbhwan-14%2C%20Lalitpur%2C%20Nepal",
+  mapHref: "https://www.google.com/maps/search/?api=1&query=Manbhawan-14%2C%20Lalitpur%2C%20Nepal",
   licence: "1538/078/79",
 };
 

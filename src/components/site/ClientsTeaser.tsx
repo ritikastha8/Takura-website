@@ -22,7 +22,7 @@ export function ClientsTeaser() {
               <div
                 key={`${client.name}-${index}`}
                 title={client.name}
-                className="flex h-28 w-52 shrink-0 items-center justify-center rounded-xl border border-border bg-white p-4 grayscale transition-all duration-300 hover:grayscale-0 hover:shadow-card"
+                className="flex h-28 w-52 shrink-0 items-center justify-center rounded-xl border border-border bg-white p-4 transition-shadow duration-300 hover:shadow-card"
               >
                 <img
                   src={client.logo}

@@ -192,8 +192,8 @@ export function Contact({ mode = "contact" }: { mode?: "contact" | "hire" }) {
 
             <div className="overflow-hidden rounded-xl border border-border bg-surface">
               <iframe
-                title="Takura Overseas office location in Manbhwan, Lalitpur"
-                src="https://www.google.com/maps?q=Manbhwan-14%2C%20Lalitpur%2C%20Nepal&output=embed"
+                title="Takura Overseas office location in Manbhawan, Lalitpur"
+                src="https://www.google.com/maps?q=Manbhawan-14%2C%20Lalitpur%2C%20Nepal&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="h-72 w-full border-0"
